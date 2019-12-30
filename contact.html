@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+    Name: Erin Knight
+    Date Created: 12/29/19
+    Most recent revision:
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css?family=Unica+One&display=swap" rel="stylesheet">
+	
+	   
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+      <header>
+        <div class="container" id="header">
+          <div class="row">
+              <div class="col" id="header-link">
+               <a href="index.html"><h1>The Codfather</h1></a>
+              </div>
+              <div class="col" id="header-quote">
+               <p>"Catch A Fish You Can't Refuse."</p>
+              </div>
+          </div>
+        </div>
+      </header>
+
+        <div class="container">
+          <nav class="row" id="navigation-tabs">
+            <div class="col">
+              <h3><a href="index.html" class="badge badge-pill fas fa-home"> Home</a></h3>
+              </div>
+            <div class="col">
+              <h3><a href="menu.html" class="badge badge-pill fas fa-caret-square-down"> Menu</a></h3>
+              </div>
+            <div class="col">
+              <h3><a href="contact.html" class="badge badge-pill fas fa-comments"> Contact Us</h3></a>
+              </div>
+          </nav>
+        </div>
+
+      <form id="contactForm">
+        <div class="container" id="contact-form">
+          <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputName">Name:</label>
+                <input type="text" class="form-control" id="inputname" placeholder="Name">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputPhone">Phone:</label>
+                <input type="tel" class="form-control" id="inputphone" placeholder="Phone">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputEmail">Email:</label>
+                <input type="email" class="form-control" id="inputemail" placeholder="Email">
+              </div>
+
+              <div class="form-group col-md-12">
+                <label for="inputReason">Reason for Inquiry:</label>
+                <select id="inputReason" class="form-control">
+                  <option selected>Catering</option>
+                  <option>Private Party</option>
+                  <option>Feedback</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-12">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">New Member of the Family</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Previously Initiated Family Member</label>
+                </div>
+              </div>
+
+              <div class="form-group col-md-12">
+                <p>Best Days to Reach You? (Select all that apply):
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">M</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">T</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">W</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">TH</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">F</label>
+                </div>
+              </div>
+              <div class="form-group col">
+              <center>
+                <button id="contactBtn" type="submit" class="btn btn-primary"
+                  onclick="return validate();">Send Request</button>
+              </center>
+              </div>
+            </div>
+        </div>
+      </form>
+
+        <footer>
+          <center><p>333 Mulligan Ct. Waxahachie, TX</p></center>
+          <center><p>(1)-972-868-4422</P></center>
+        </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
