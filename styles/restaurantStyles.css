@@ -1,0 +1,144 @@
+/* Restaurant 3 - The Codfather*/
+
+/* Body */
+body {
+  background-color: ;
+  background-repeat: no-repeat;
+  background-position: fill;
+  background-size: cover;
+} 
+
+/* Header & Footer Styles */
+header {
+	  font-family: 'Unica One', cursive;
+  font-weight: bold;
+  color: red;
+  padding: 5px;
+  text-align: center;
+
+}
+
+footer {
+  font-family: 'Unica One', cursive;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+
+}
+
+#header {
+  border: solid;
+  border-color: #33CFFF;
+
+}
+
+#header-link a {
+  font-family: 'Unica One', cursive;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+#header-quote {
+	
+  text-decoration: underline;
+  -webkit-text-decoration-color: salmon;
+;
+  text-decoration-color: salmon;
+;
+  -webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+ 
+  font-family: 'Unica One', cursive;
+  color: black;
+  font-size: 36px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  
+}
+
+/* Navigation Styling */
+nav {
+  font-family: 'Unica One', cursive;
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+  border: solid;
+  border-color: #ff4133;
+}
+
+#navigation-tabs {
+  font-family: 'Unica One', cursive;
+}
+
+/* Carousel */
+
+.container .jumbotron {
+  padding: 0px;
+}
+
+.carousel-inner h3 {
+  font-weight: bold;
+  text-shadow: 45px 25px 4px rgb(255,87,51);
+  color: #33ffbd;
+  font-family: 'Unica One', cursive
+
+;
+}
+
+.carousel-inner p {
+  font-weight: bold;
+  color: white;
+}
+
+/* Paragraph */
+
+#home {
+  font-family: 'Unica One', cursive;
+  font-size: 18px;	
+  padding: 5px;
+  border-top: solid black;
+  border-bottom: solid black;
+}
+
+/* Menu.html */
+
+#menu {
+  font-family: 'Unica One', cursive;
+  text-align: center;
+  border: solid black;
+}
+
+#topMenu {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#btmMenu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #33FFBD
+;
+  padding: 4px;
+  margin: 10px;
+}
+
+#menu h3 {
+  font-family: 'Unica One', cursive;
+}
+
+/* Contact Us */
+
+#contact-form {
+  font-family: 'Unica One', cursive;
+  text-align: center;
+  border: solid black;
+  padding: 15px;
+}
